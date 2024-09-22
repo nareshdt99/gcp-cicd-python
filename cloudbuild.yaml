@@ -18,7 +18,7 @@ steps:
       - 'flask-app=gcr.io/$PROJECT_ID/flask-app'
     env:
       - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
-      - 'CLOUDSDK_CONTAINER_CLUSTER=my-gke-cluster'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=my-cluster'
 
 # substitutions:
 #   PROJECT_ID: mimetic-coral-436411-t1
