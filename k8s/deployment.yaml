@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: gcr.io/mimetic-coral-436411-t1/flask-app
+        image: gcr.io/mimetic-coral-436411-t1/flask-app@sha256:latest
         ports:
         - containerPort: 8080
 ---
