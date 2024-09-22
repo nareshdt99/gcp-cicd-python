@@ -15,7 +15,7 @@ steps:
       - 'set'
       - 'image'
       - 'deployment/flask-app-deployment'
-      - 'flask-app=gcr.io/$PROJECT_ID/flask-app'
+      - 'flask-app-sha256-1=gcr.io/$PROJECT_ID/flask-app'
     env:
       - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
       - 'CLOUDSDK_CONTAINER_CLUSTER=my-cluster'
