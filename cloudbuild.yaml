@@ -16,11 +16,11 @@ steps:
       - 'image'
       - 'deployment/flask-app-deployment'
       - 'flask-app-sha256-1=gcr.io/$PROJECT_ID/flask-app'
-- name: 'gcr.io/cloud-builders/kubectl'
-    args:
-      - 'apply'
-      - '-f'
-      - 'k8s/deployment.yaml'
+# - name: 'gcr.io/cloud-builders/kubectl'
+#     args:
+#       - 'apply'
+#       - '-f'
+#       - 'k8s/deployment.yaml'
     env:
       - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
       - 'CLOUDSDK_CONTAINER_CLUSTER=my-cluster'
