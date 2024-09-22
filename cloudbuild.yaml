@@ -1,6 +1,5 @@
 options:
-  logging: GCS_ONLY
-  logsBucket: gs://[PROJECT_ID]-cloudbuild-logs
+  logging: CLOUD_LOGGING_ONLY
 steps:
   # Step 1: Build the Docker image
   - name: 'gcr.io/cloud-builders/docker'
