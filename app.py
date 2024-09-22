@@ -40,7 +40,7 @@ def hello_world():
         </style>
     </head>
     <body>
-        <h1>Hello, GKE! Pipeline Completed! congrats</h1>
+        <h1>Hello, GKE! Pipeline Completed! succesfully now go and sleep its late already</h1>
     </body>
     </html>
     ''')
